@@ -4,7 +4,7 @@ import { formatTime, formatDate, formatDuration } from '../../utils/formatters';
 import ProgressBar from '../eta/ProgressBar';
 import StopMarker from '../routes/StopMarker';
 
-const API_URL = https://bus-project-i6od.onrender.com/
+const API_URL = 'https://bus-project-i6od.onrender.com/'
 
 const BusDetails = ({ bus, onClose, onTrack, onReport, onShare }) => {
   const [activeTab, setActiveTab] = useState('info'); // 'info', 'route', 'eta', 'driver'
