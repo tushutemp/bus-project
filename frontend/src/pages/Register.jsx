@@ -4,7 +4,7 @@ import { useNavigate, Link } from 'react-router-dom';
 import useAuthStore from '../store/authStore';
 import './Register.css';
 
-const API = 'http://localhost:3001/api';
+const API = https://bus-project-i6od.onrender.com/
 
 const Register = () => {
   const navigate = useNavigate();

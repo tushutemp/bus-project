@@ -5,7 +5,7 @@ import useAuthStore from '../../store/authStore';
 import './DriverDashboard.css';
 
 const WS_URL = 'ws://localhost:3001';
-const API_URL = 'http://localhost:3001/api';
+const API_URL = https://bus-project-i6od.onrender.com/
 const SEND_INTERVAL = 3000; // send GPS every 3 seconds
 
 const DriverDashboard = ({ onLogout }) => {
