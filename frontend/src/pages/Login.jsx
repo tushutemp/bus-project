@@ -3,7 +3,7 @@ import { useNavigate, Link } from 'react-router-dom';
 import useAuthStore from '../store/authStore';
 import './Login.css';
 
-const API = 'https://bus-project-i6od.onrender.com/'
+const API = 'https://bus-project-i6od.onrender.com/api'
 
 const Login = () => {
   const navigate = useNavigate();

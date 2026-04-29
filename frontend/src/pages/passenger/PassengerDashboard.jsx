@@ -7,7 +7,7 @@ import useAuthStore from '../../store/authStore';
 import io from '../../services/wsAdapter';
 import './PassengerDashboard.css';
 
-const API_URL = 'https://bus-project-i6od.onrender.com/'
+const API_URL = 'https://bus-project-i6od.onrender.com/api'
 const WS_URL  = 'ws://localhost:3001';
 const POLL_INTERVAL = 10000; // fallback polling every 10s
 

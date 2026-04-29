@@ -1,4 +1,4 @@
-const API_BASE_URL = 'https://bus-project-i6od.onrender.com/'
+const API_BASE_URL = 'https://bus-project-i6od.onrender.com/api'
 
 class ApiService {
   async request(endpoint, options = {}) {
